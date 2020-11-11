@@ -1,0 +1,135 @@
+#head{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 5%;
+}
+
+@media (max-width: 600px){
+    #head{
+        margin: 0px;
+    }
+
+    .publicity{
+        margin: 0px;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.publicity {
+    margin-left: 60px;
+    width: 280px;
+}
+
+
+
+h3{
+    background-color: rgb(243, 243, 112);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.description{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    color: black;
+    font-weight: bold;
+}
+
+.price{
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.iva{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.priceFinal{
+    color: grey;
+}
+
+#number{
+    text-align: center;
+}
+
+.selectProduct{
+    visibility: hidden;
+    
+}
+
+
+
+
+
+#productSeven{
+    opacity: 0.7;
+}
+#productEight{
+    opacity: 0.7;
+}
+#productNine{
+    opacity: 0.7;
+}
+#productTen{
+    opacity: 0.7;
+}
+#productEleven{
+    opacity: 0.7;
+}
+
+
+
+#productOne:hover{
+    border: 0.5px solid rgb(180, 180, 180);
+    border-radius: 5px;   
+}
+#productTwo:hover{
+    border: 0.5px solid rgb(180, 180, 180);
+    border-radius: 5px;   
+}
+#productThree:hover{
+    border: 0.5px solid rgb(180, 180, 180);
+    border-radius: 5px;   
+}
+#productFour:hover{
+    border: 0.5px solid rgb(180, 180, 180);
+    border-radius: 5px;   
+}
+#productFive:hover{
+    border: 0.5px solid rgb(180, 180, 180);
+    border-radius: 5px;   
+}
+#productSix:hover{
+    border: 0.5px solid rgb(180, 180, 180);
+    border-radius: 5px;   
+}
+
+
+#productOne:hover .selectProduct{ 
+    visibility: visible;
+}
+
+#productTwo:hover .selectProduct{ 
+    visibility: visible;
+}
+
+#productThree:hover .selectProduct{ 
+    visibility: visible;
+}
+#productFour:hover .selectProduct{ 
+    visibility: visible;
+}
+#productFive:hover .selectProduct{ 
+    visibility: visible;
+}
+#productSix:hover .selectProduct{ 
+    visibility: visible;
+}
+
+
