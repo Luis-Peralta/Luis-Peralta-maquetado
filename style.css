@@ -17,6 +17,12 @@
         width: 100%;
         height: 100%;
     }
+
+    #publi{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
 }
 
 .publicity {
